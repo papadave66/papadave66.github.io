@@ -5,7 +5,7 @@
   
   <link href="https://papadave66.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://papadave66.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-07-07T23:30:47+08:00</updated>
+  <updated>2019-07-07T23:34:59+08:00</updated>
   <id>https://papadave66.github.io//</id>
 
   
@@ -31,12 +31,12 @@
       <title type="html">如何解决WIN10下挂载NFS乱码</title>
       
       
-      <link href="https://papadave66.github.io/2019/07/07/how-to-solve-windows-nfs/" rel="alternate" type="text/html" title="如何解决WIN10下挂载NFS乱码" />
+      <link href="https://papadave66.github.io/2019/07/07/how-to-solve-windows-nfs-unreadable-codes/" rel="alternate" type="text/html" title="如何解决WIN10下挂载NFS乱码" />
       
       <published>2019-07-07T00:00:00+08:00</published>
       <updated>2019-07-07T00:00:00+08:00</updated>
-      <id>https://papadave66.github.io/2019/07/07/how-to-solve-windows-nfs</id>
-      <content type="html" xml:base="https://papadave66.github.io/2019/07/07/how-to-solve-windows-nfs/">&lt;p&gt;在使用windows 10的时候，想访问NAS的资源，于是试着挂载了nfs。但是文件名乱码，经过搜索后找到了如下解决方法：&lt;/p&gt;
+      <id>https://papadave66.github.io/2019/07/07/how-to-solve-windows-nfs-unreadable-codes</id>
+      <content type="html" xml:base="https://papadave66.github.io/2019/07/07/how-to-solve-windows-nfs-unreadable-codes/">&lt;p&gt;在使用windows 10的时候，想访问NAS的资源，于是试着挂载了nfs。但是文件名乱码，经过搜索后找到了如下解决方法：&lt;/p&gt;
 
 &lt;p&gt;在搜索框搜索language 或语言，点击 &lt;strong&gt;编辑语言和键盘选项&lt;/strong&gt;
 &lt;img src=&quot;/images/2019-07-07-1.png&quot; alt=&quot;search_language_at_windows_search&quot; /&gt;&lt;/p&gt;
