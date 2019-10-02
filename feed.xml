@@ -5,7 +5,7 @@
   
   <link href="https://papadave66.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://papadave66.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-09-23T15:39:48+08:00</updated>
+  <updated>2019-10-02T22:04:21+08:00</updated>
   <id>https://papadave66.github.io//</id>
 
   
@@ -24,6 +24,58 @@
     </author>
   
 
+  
+  
+    <entry>
+      
+      <title type="html">奇怪APP推荐:GalleryCam</title>
+      
+      
+      <link href="https://papadave66.github.io/2019/10/02/fake-android-camera-app/" rel="alternate" type="text/html" title="奇怪APP推荐:GalleryCam" />
+      
+      <published>2019-10-02T00:00:00+08:00</published>
+      <updated>2019-10-02T00:00:00+08:00</updated>
+      <id>https://papadave66.github.io/2019/10/02/fake-android-camera-app</id>
+      <content type="html" xml:base="https://papadave66.github.io/2019/10/02/fake-android-camera-app/">&lt;p&gt;最近因为一些需求，需要用得上一个功能：就是在呼出camera的时候不需要自己拍，而是选择一张本机的图片进行上传。这个功能实际上还是很好用的，比如可能有些验证app 需要你拍一张大头贴。有了这个，你就可以选择自己喜欢的图片啦。
+&lt;img src=&quot;https://image.winudf.com/v2/image/Y29tLmdpdGh1Yi5ma2xvZnQuZ2FsbGVyeWNhbV9zY3JlZW5fMF8xNTIwMjU1NDczXzA2Nw/screen-0.jpg?h=710&amp;amp;fakeurl=1&amp;amp;type=.jpg&quot; alt=&quot;Gallerycam.app screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;How to use&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;下载安装，下载地址: &lt;a href=&quot;https://apkpure.com/cn/gallerycam/com.github.fkloft.gallerycam&quot;&gt;apkpure.com&lt;/a&gt; 安装完应该是找不到启动图标的&lt;/li&gt;
+  &lt;li&gt;更改默认相机app，在设置-&amp;gt;应用-&amp;gt;相机里，应该可以选择默认的相机应用，选择刚刚安装好的应用&lt;/li&gt;
+  &lt;li&gt;可以使用啦。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;PS:可能有一些诡异的应用自己写了套相机的activity 那种的就凉了(&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>papadave</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="app-recommend" />
+      
+
+      
+
+      
+        <summary type="html">最近因为一些需求，需要用得上一个功能：就是在呼出camera的时候不需要自己拍，而是选择一张本机的图片进行上传。这个功能实际上还是很好用的，比如可能有些验证app 需要你拍一张大头贴。有了这个，你就可以选择自己喜欢的图片啦。 How to use 下载安装，下载地址: apkpure.com 安装完应该是找不到启动图标的 更改默认相机app，在设置-&amp;gt;应用-&amp;gt;相机里，应该可以选择默认的相机应用，选择刚刚安装好的应用 可以使用啦。 PS:可能有一些诡异的应用自己写了套相机的activity 那种的就凉了(</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
