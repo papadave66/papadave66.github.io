@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>一个快速添加ssh authorized key的方法</title>
+  <meta name="description" content="如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id找到，感兴趣的朋友可以自行研究">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://papadave66.github.io/2019/10/11/a-quick-way-to-add-ssh-authorized-key/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="papadave&#39;s blog" href="https://papadave66.github.io/feed.xml">
+
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="一个快速添加ssh authorized key的方法">
+  <meta name="twitter:description" content="如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id找到，感兴趣的朋友可以自行研究">
+  
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">papadave&#39;s blog</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+        
+        <a class="page-link" href="https://github.com/papadave66">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">一个快速添加ssh authorized key的方法</h1>
+    
+    <p class="post-meta"><time datetime="2019-10-11T00:00:00+08:00" itemprop="datePublished">Oct 11, 2019</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">papadave</span></span> •
+  
+    
+    
+      
+    
+      
+        <a href="/categories/tech-share/">tech-share</a>
+      
+    
+      
+    
+  
+
+
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>如何快速添加authorized key? <br />
+之前很多操作都是使用<code class="highlighter-rouge">ssh</code>登陆 到目标主机，再对应账户的<code class="highlighter-rouge">~/.ssh/authorized_keys</code> 里手动添加你的public key<br />
+但是最近闲着无聊火星地发现了一个命令：
+<code class="highlighter-rouge">ssh-copy-id</code><br />
+这个指令实际上也是个shell脚本。源码可以在 <code class="highlighter-rouge">cat `which ssh-copy-id</code>找到，感兴趣的朋友可以自行研究</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy; papadave - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="https://papadave66.github.io/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
