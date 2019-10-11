@@ -5,7 +5,7 @@
   
   <link href="https://papadave66.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://papadave66.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-10-11T13:46:57+08:00</updated>
+  <updated>2019-10-11T13:49:17+08:00</updated>
   <id>https://papadave66.github.io//</id>
 
   
@@ -40,7 +40,7 @@
 之前很多操作都是使用&lt;code class=&quot;highlighter-rouge&quot;&gt;ssh&lt;/code&gt;登陆 到目标主机，再对应账户的&lt;code class=&quot;highlighter-rouge&quot;&gt;~/.ssh/authorized_keys&lt;/code&gt; 里手动添加你的public key&lt;br /&gt;
 但是最近闲着无聊火星地发现了一个命令：
 &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh-copy-id&lt;/code&gt;&lt;br /&gt;
-这个指令实际上也是个shell脚本。源码可以在 &lt;code class=&quot;highlighter-rouge&quot;&gt;cat `which ssh-copy-id&lt;/code&gt;找到，感兴趣的朋友可以自行研究&lt;/p&gt;</content>
+这个指令实际上也是个shell脚本。源码可以在 &lt;code class=&quot;highlighter-rouge&quot;&gt;cat `which ssh-copy-id`&lt;/code&gt;找到，感兴趣的朋友可以自行研究&lt;/p&gt;</content>
 
       
       
@@ -63,7 +63,7 @@
       
 
       
-        <summary type="html">如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id找到，感兴趣的朋友可以自行研究</summary>
+        <summary type="html">如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id`找到，感兴趣的朋友可以自行研究</summary>
       
 
       

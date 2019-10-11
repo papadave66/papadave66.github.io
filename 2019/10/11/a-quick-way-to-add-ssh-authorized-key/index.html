@@ -10,7 +10,7 @@
   
   
   <title>一个快速添加ssh authorized key的方法</title>
-  <meta name="description" content="如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id找到，感兴趣的朋友可以自行研究">
+  <meta name="description" content="如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id`找到，感兴趣的朋友可以自行研究">
   
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -25,7 +25,7 @@
   <meta name="twitter:card" content="summary">
   
   <meta name="twitter:title" content="一个快速添加ssh authorized key的方法">
-  <meta name="twitter:description" content="如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id找到，感兴趣的朋友可以自行研究">
+  <meta name="twitter:description" content="如何快速添加authorized key? 之前很多操作都是使用ssh登陆 到目标主机，再对应账户的~/.ssh/authorized_keys 里手动添加你的public key 但是最近闲着无聊火星地发现了一个命令： ssh-copy-id 这个指令实际上也是个shell脚本。源码可以在 cat `which ssh-copy-id`找到，感兴趣的朋友可以自行研究">
   
   
 
@@ -95,7 +95,7 @@
 之前很多操作都是使用<code class="highlighter-rouge">ssh</code>登陆 到目标主机，再对应账户的<code class="highlighter-rouge">~/.ssh/authorized_keys</code> 里手动添加你的public key<br />
 但是最近闲着无聊火星地发现了一个命令：
 <code class="highlighter-rouge">ssh-copy-id</code><br />
-这个指令实际上也是个shell脚本。源码可以在 <code class="highlighter-rouge">cat `which ssh-copy-id</code>找到，感兴趣的朋友可以自行研究</p>
+这个指令实际上也是个shell脚本。源码可以在 <code class="highlighter-rouge">cat `which ssh-copy-id`</code>找到，感兴趣的朋友可以自行研究</p>
 
   </div>
 
