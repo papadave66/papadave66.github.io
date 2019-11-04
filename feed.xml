@@ -5,7 +5,7 @@
   
   <link href="https://papadave66.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://papadave66.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-10-11T13:49:17+08:00</updated>
+  <updated>2019-11-04T13:35:40+08:00</updated>
   <id>https://papadave66.github.io//</id>
 
   
@@ -24,6 +24,55 @@
     </author>
   
 
+  
+  
+    <entry>
+      
+      <title type="html">如何使用vim的marco</title>
+      
+      
+      <link href="https://papadave66.github.io/2019/11/04/how-to-record-vim-marco/" rel="alternate" type="text/html" title="如何使用vim的marco" />
+      
+      <published>2019-11-04T00:00:00+08:00</published>
+      <updated>2019-11-04T00:00:00+08:00</updated>
+      <id>https://papadave66.github.io/2019/11/04/how-to-record-vim-marco</id>
+      <content type="html" xml:base="https://papadave66.github.io/2019/11/04/how-to-record-vim-marco/">&lt;p&gt;相信各位在使用&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;的时候，都会看到左下角时不时多出一个recording 的字样，其实这个时候&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;已经在录制宏了&lt;br /&gt;
+那么如何使用宏呢&lt;br /&gt;
+&lt;a href=&quot;https://asciinema.org/a/278966&quot;&gt;&lt;img src=&quot;https://asciinema.org/a/278966.svg&quot; alt=&quot;asciicast&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;使用’q’+宏名录制&lt;/li&gt;
+  &lt;li&gt;使用’q’退出录制&lt;/li&gt;
+  &lt;li&gt;’@’+宏名 使用宏。’@’前加数字可以使宏运行几次&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>papadave</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="tech-share" />
+      
+
+      
+
+      
+        <summary type="html">相信各位在使用vim的时候，都会看到左下角时不时多出一个recording 的字样，其实这个时候vim已经在录制宏了 那么如何使用宏呢 使用’q’+宏名录制 使用’q’退出录制 ’@’+宏名 使用宏。’@’前加数字可以使宏运行几次</summary>
+      
+
+      
+      
+    </entry>
+  
   
   
     <entry>
