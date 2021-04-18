@@ -19,7 +19,7 @@ description: A little blog site for papadave.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://papadave66.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
-timezone: UTC-8
+timezone: Asia/Shanghai
 exclude:
   - Gemfile
   - Gemfile.lock
