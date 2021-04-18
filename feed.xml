@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <generator uri="http://jekyllrb.com" version="3.8.6">Jekyll</generator>
+  <generator uri="http://jekyllrb.com" version="3.9.1">Jekyll</generator>
   
   
   <link href="https://papadave66.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://papadave66.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2019-11-04T13:35:40+08:00</updated>
+  <updated>2021-04-18T12:42:24+08:00</updated>
   <id>https://papadave66.github.io//</id>
 
   
@@ -28,6 +28,110 @@
   
     <entry>
       
+      <title type="html">如何在MacOS中添加PATH和MANPATH</title>
+      
+      
+      <link href="https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos/" rel="alternate" type="text/html" title="如何在MacOS中添加PATH和MANPATH" />
+      
+      <published>2021-04-18T00:00:00+08:00</published>
+      <updated>2021-04-18T00:00:00+08:00</updated>
+      <id>https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos</id>
+      <content type="html" xml:base="https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos/">&lt;p&gt;在其他的操作系统中，例如发行版Linux。可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.profile&lt;/code&gt; 添加PATH。
+而在macOS Catalina中，如果查看 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/profile&lt;/code&gt; 的话，可以发现Apple 使用了个叫&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;path_helper&lt;/code&gt;的东西。
+用户可以使用sudo 权限，直接在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/paths&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/manpaths&lt;/code&gt; 中添加路径即可,每个路径一行。&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>papadave</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="tech-share" />
+      
+
+      
+
+      
+        <summary type="html">在其他的操作系统中，例如发行版Linux。可以在 ~/.profile 添加PATH。 而在macOS Catalina中，如果查看 /etc/profile 的话，可以发现Apple 使用了个叫path_helper的东西。 用户可以使用sudo 权限，直接在 /etc/paths 和 /etc/manpaths 中添加路径即可,每个路径一行。</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">如何给Macbook Pro 2015 early 更换第三方SSD</title>
+      
+      
+      <link href="https://papadave66.github.io/2021/03/05/how-to-resolve-hibernate-issue-when-replacing-third-party-ssd-for-macbookPro2015/" rel="alternate" type="text/html" title="如何给Macbook Pro 2015 early 更换第三方SSD" />
+      
+      <published>2021-03-05T00:00:00+08:00</published>
+      <updated>2021-03-05T00:00:00+08:00</updated>
+      <id>https://papadave66.github.io/2021/03/05/how-to-resolve-hibernate-issue-when-replacing-third-party-ssd-for-macbookPro2015</id>
+      <content type="html" xml:base="https://papadave66.github.io/2021/03/05/how-to-resolve-hibernate-issue-when-replacing-third-party-ssd-for-macbookPro2015/">&lt;p&gt;最近觉得我的 Macbook 容量太小了，只有128GB。于是想升级一下硬盘
+如果你的笔记本也是Macbook Pro 2015 early. 你也可以自己更换第三方SSD.&lt;/p&gt;
+
+&lt;p&gt;以下是简易教程&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;购买NVME SSD。 我选的西部数据SN550 500g有休眠问题。建议更换至Intel 660P等其他型号。&lt;/li&gt;
+  &lt;li&gt;购买 Macbook 固态硬盘转接卡。可以在淘宝找到，大约20元。&lt;/li&gt;
+  &lt;li&gt;备份文件&lt;/li&gt;
+  &lt;li&gt;将你的笔记本用原厂硬盘升级到Mojave以上版本。以升级Boot ROM&lt;/li&gt;
+  &lt;li&gt;制作你想要的系统的USB安装盘&lt;/li&gt;
+  &lt;li&gt;关机并更换硬盘。注意SSD螺丝会略紧，需要用力并小心滑丝&lt;/li&gt;
+  &lt;li&gt;插入启动u盘，按 &lt;strong&gt;option&lt;/strong&gt; + 开机键 安装系统&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;下面是我遇到的一些坑&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;如果原系统是Mojave 以下，可能更换硬盘后会有休眠问题。因为Boot ROM 太老&lt;/li&gt;
+  &lt;li&gt;Boot ROM 过老可能在 command+option+R+电源 界面找不到第三方硬盘&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>papadave</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="tech-share" />
+      
+
+      
+
+      
+        <summary type="html">最近觉得我的 Macbook 容量太小了，只有128GB。于是想升级一下硬盘 如果你的笔记本也是Macbook Pro 2015 early. 你也可以自己更换第三方SSD. 以下是简易教程 购买NVME SSD。 我选的西部数据SN550 500g有休眠问题。建议更换至Intel 660P等其他型号。 购买 Macbook 固态硬盘转接卡。可以在淘宝找到，大约20元。 备份文件 将你的笔记本用原厂硬盘升级到Mojave以上版本。以升级Boot ROM 制作你想要的系统的USB安装盘 关机并更换硬盘。注意SSD螺丝会略紧，需要用力并小心滑丝 插入启动u盘，按 option + 开机键 安装系统 下面是我遇到的一些坑 如果原系统是Mojave 以下，可能更换硬盘后会有休眠问题。因为Boot ROM 太老 Boot ROM 过老可能在 command+option+R+电源 界面找不到第三方硬盘</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
       <title type="html">如何使用vim的marco</title>
       
       
@@ -36,7 +140,7 @@
       <published>2019-11-04T00:00:00+08:00</published>
       <updated>2019-11-04T00:00:00+08:00</updated>
       <id>https://papadave66.github.io/2019/11/04/how-to-record-vim-marco</id>
-      <content type="html" xml:base="https://papadave66.github.io/2019/11/04/how-to-record-vim-marco/">&lt;p&gt;相信各位在使用&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;的时候，都会看到左下角时不时多出一个recording 的字样，其实这个时候&lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt;已经在录制宏了&lt;br /&gt;
+      <content type="html" xml:base="https://papadave66.github.io/2019/11/04/how-to-record-vim-marco/">&lt;p&gt;相信各位在使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim&lt;/code&gt;的时候，都会看到左下角时不时多出一个recording 的字样，其实这个时候&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim&lt;/code&gt;已经在录制宏了&lt;br /&gt;
 那么如何使用宏呢&lt;br /&gt;
 &lt;a href=&quot;https://asciinema.org/a/278966&quot;&gt;&lt;img src=&quot;https://asciinema.org/a/278966.svg&quot; alt=&quot;asciicast&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -86,10 +190,10 @@
       <updated>2019-10-11T00:00:00+08:00</updated>
       <id>https://papadave66.github.io/2019/10/11/a-quick-way-to-add-ssh-authorized-key</id>
       <content type="html" xml:base="https://papadave66.github.io/2019/10/11/a-quick-way-to-add-ssh-authorized-key/">&lt;p&gt;如何快速添加authorized key? &lt;br /&gt;
-之前很多操作都是使用&lt;code class=&quot;highlighter-rouge&quot;&gt;ssh&lt;/code&gt;登陆 到目标主机，再对应账户的&lt;code class=&quot;highlighter-rouge&quot;&gt;~/.ssh/authorized_keys&lt;/code&gt; 里手动添加你的public key&lt;br /&gt;
+之前很多操作都是使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt;登陆 到目标主机，再对应账户的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.ssh/authorized_keys&lt;/code&gt; 里手动添加你的public key&lt;br /&gt;
 但是最近闲着无聊火星地发现了一个命令：
-&lt;code class=&quot;highlighter-rouge&quot;&gt;ssh-copy-id&lt;/code&gt;&lt;br /&gt;
-这个指令实际上也是个shell脚本。源码可以在 &lt;code class=&quot;highlighter-rouge&quot;&gt;cat `which ssh-copy-id`&lt;/code&gt;找到，感兴趣的朋友可以自行研究&lt;/p&gt;</content>
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh-copy-id&lt;/code&gt;&lt;br /&gt;
+这个指令实际上也是个shell脚本。源码可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cat `which ssh-copy-id`&lt;/code&gt;找到，感兴趣的朋友可以自行研究&lt;/p&gt;</content>
 
       
       
