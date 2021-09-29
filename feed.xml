@@ -5,7 +5,7 @@
   
   <link href="https://papadave66.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://papadave66.github.io/" rel="alternate" type="text/html" hreflang="en" />
-  <updated>2021-04-18T12:58:24+08:00</updated>
+  <updated>2021-09-29T20:59:59+08:00</updated>
   <id>https://papadave66.github.io//</id>
 
   
@@ -28,17 +28,18 @@
   
     <entry>
       
-      <title type="html">如何在MacOS中添加PATH和MANPATH</title>
+      <title type="html">MIUI系统感应nfc卡片，显示没有应用可执行此操作</title>
       
       
-      <link href="https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos/" rel="alternate" type="text/html" title="如何在MacOS中添加PATH和MANPATH" />
+      <link href="https://papadave66.github.io/2021/09/29/miui-nfc-failed-to-activate-app/" rel="alternate" type="text/html" title="MIUI系统感应nfc卡片，显示没有应用可执行此操作" />
       
-      <published>2021-04-18T00:00:00+08:00</published>
-      <updated>2021-04-18T00:00:00+08:00</updated>
-      <id>https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos</id>
-      <content type="html" xml:base="https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos/">&lt;p&gt;在其他的操作系统中，例如发行版Linux。可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.profile&lt;/code&gt; 添加PATH。
-而在macOS Catalina中，如果查看 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/profile&lt;/code&gt; 的话，可以发现Apple 使用了个叫&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;path_helper&lt;/code&gt;的东西。
-用户可以使用sudo 权限，直接在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/paths&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/manpaths&lt;/code&gt; 中添加路径即可,每个路径一行。&lt;/p&gt;</content>
+      <published>2021-09-29T00:00:00+08:00</published>
+      <updated>2021-09-29T00:00:00+08:00</updated>
+      <id>https://papadave66.github.io/2021/09/29/miui-nfc-failed-to-activate-app</id>
+      <content type="html" xml:base="https://papadave66.github.io/2021/09/29/miui-nfc-failed-to-activate-app/">&lt;p&gt;在今日尝试使用MIUI系统手机，使用支付宝给公交卡充值时，发现手机提示“没有应用可执行此操作”
+而且支付宝在开启nfc功能的情况下 也无法检测到公家卡
+显示这个很可能因为你关闭了”开发者模式-MIUI优化”
+解决方法是开启MIUI优化，即可正常使用&lt;/p&gt;</content>
 
       
       
@@ -61,7 +62,51 @@
       
 
       
-        <summary type="html">在其他的操作系统中，例如发行版Linux。可以在 ~/.profile 添加PATH。 而在macOS Catalina中，如果查看 /etc/profile 的话，可以发现Apple 使用了个叫path_helper的东西。 用户可以使用sudo 权限，直接在 /etc/paths 和 /etc/manpaths 中添加路径即可,每个路径一行。</summary>
+        <summary type="html">在今日尝试使用MIUI系统手机，使用支付宝给公交卡充值时，发现手机提示“没有应用可执行此操作” 而且支付宝在开启nfc功能的情况下 也无法检测到公家卡 显示这个很可能因为你关闭了”开发者模式-MIUI优化” 解决方法是开启MIUI优化，即可正常使用</summary>
+      
+
+      
+      
+    </entry>
+  
+  
+  
+    <entry>
+      
+      <title type="html">如何在MacOS中添加PATH和MANPATH</title>
+      
+      
+      <link href="https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos/" rel="alternate" type="text/html" title="如何在MacOS中添加PATH和MANPATH" />
+      
+      <published>2021-04-18T00:00:00+08:00</published>
+      <updated>2021-04-18T00:00:00+08:00</updated>
+      <id>https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos</id>
+      <content type="html" xml:base="https://papadave66.github.io/2021/04/18/how-to-add-paths-in-macos/">&lt;p&gt;在其他的操作系统中，例如发行版Linux。可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.profile&lt;/code&gt; 添加PATH
+而在macOS Catalina中，如果查看 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/profile&lt;/code&gt; 的话，可以发现Apple 使用了个叫&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;path_helper&lt;/code&gt;的东西
+用户可以使用sudo 权限，直接在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/paths&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/manpaths&lt;/code&gt; 中添加路径即可,每个路径一行&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      
+        <author>
+            <name>papadave</name>
+          
+          
+        </author>
+      
+
+      
+        <category term="tech-share" />
+      
+
+      
+
+      
+        <summary type="html">在其他的操作系统中，例如发行版Linux。可以在 ~/.profile 添加PATH 而在macOS Catalina中，如果查看 /etc/profile 的话，可以发现Apple 使用了个叫path_helper的东西 用户可以使用sudo 权限，直接在 /etc/paths 和 /etc/manpaths 中添加路径即可,每个路径一行</summary>
       
 
       
