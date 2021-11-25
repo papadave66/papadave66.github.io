@@ -10,7 +10,7 @@ author: "papadave"
 2. F母头转TV公头（非必须，取决你的有线电视进户线接口）
 
 我的USB电视棒是这个样子:<br>
-![DVB-C dongle](https://www.linuxtv.org/wiki/images/thumb/c/cc/Astrometa-dvb-t2.png/320px-Astrometa-dvb-t2.png)
+![DVB-C dongle](https://www.linuxtv.org/wiki/images/thumb/c/cc/Astrometa-dvb-t2.png/320px-Astrometa-dvb-t2.png)<br>
 但是不同的是我买的这款，外壳带有DVB-C字样<br>
 <br>
 接下来是编译环节。推荐通过ports编译安装tvheadend 和 webcamd。<br>
@@ -68,14 +68,14 @@ Language 可以选择中文。第二步允许的网络如果你想以后外网�
         INVERSION = AUTO                                                             
 ```
 然后重启tvheadend service。并回到tvheadend webUI<br>
-1. DVB输入-TV adapter-选中你的DVB-C设备 点击启用，并且取消勾选idle scan<br>
-2. 在network选项卡里点击添加，type写DVB-C Network，network name 随便，<br>
-pre-defined muxes选刚才你创建的zh-something，字符集选GB2312,时区选UTC+8 点击save<br>
-3. 回到DVB输入-TV adapter选项卡，选中DVB-C设备,network选上一步的名字。点击save<br>
-4. DVB输入-Muxes选项卡里应该出现所有的频率了，然后回到network选项卡里点击强制扫描，就开始搜索节目了<br>
-5. DVB输入-services 里 应该有所有的频道了。点击Map services- Map all service<br>
-6. 频道/EPG 选项卡里应该有所有的频道了。<br>
+1. `DVB输入-TV adapter`选中你的DVB-C设备 点击启用，并且取消勾选idle scan<br>
+2. 在`network`选项卡里点击添加，`type`写`DVB-C Network`，`network name` 随便，<br>
+`pre-defined muxes`选刚才你创建的**zh-something**，字符集选**GB2312**,时区选**UTC+8** 点击**save**<br>
+3. 回到`DVB输入-TV adapter`选项卡，选中DVB-C设备,`network`选上一步的名字。点击**save**<br>
+4. `DVB输入-Muxes`选项卡里应该出现所有的频率了，然后回到network选项卡里点击强制扫描，就开始搜索节目了<br>
+5. `DVB输入-services` 里 应该有所有的频道了。点击`Map services- Map all service`<br>
+6. `频道/EPG` 选项卡里应该有所有的频道了。<br>
 <br>
-到此为止已经基本完成。如果需要下载m3u列表，需要访问http://ip:9981/playlist下载。<br>
+到此为止已经基本完成。如果需要下载m3u列表，需要访问`http://ip:9981/playlist`下载。<br>
 并且在每个链接的http://后面添加你的`tvheadend用户名:tvheadend密码@`保存即可<br>
 由于没有配置CA卡，只能看免费的电视节目
